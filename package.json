@@ -1,0 +1,27 @@
+{
+  "name": "grocery-list",
+  "version": "0.0.1",
+  "description": "This is an exercise.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvalance/grocery-list.git"
+  },
+  "author": "Misael Alvarado",
+  "bugs": {
+    "url": "https://github.com/Alvalance/grocery-list/issues"
+  },
+  "homepage": "https://github.com/Alvalance/grocery-list#readme",
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-connect": "^5.5.0",
+    "gulp-file-include": "^2.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
