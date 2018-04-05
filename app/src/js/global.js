@@ -9,13 +9,14 @@ var onLoad = function(){
         if (window.XMLHttpRequest) {
             req = new XMLHttpRequest();
         } else {
-            req = new ActiveXObject("Microsoft.XMLHTTP");
+            req = new ActiveXObject('Microsoft.XMLHTTP');
         }
         req.open('GET', 'data/data.json');
         req.onreadystatechange = function() {
             if ((req.status === 200) && (req.readyState === 4)) {
                     var grocList = JSON.parse(req.responseText);
-                    console.log(grocList[0].category);
+                    var html = Handlebars.partials.tile(grocList);
+                    document.getElementById('renderData').innerHTML = html;
             } // ready
         } // onreadystatechange event
         req.send();

@@ -1,2 +1,8 @@
 @@include('modules/setup/reset.css')
 @@include('modules/setup/scaffolding.css')
+@@include('modules/typography.css')
+@@include('modules/btn.css')
+@@include('modules/tile.css')
+@@include('modules/header.css')
+@@include('modules/body.css')
+@@include('modules/footer.css')
